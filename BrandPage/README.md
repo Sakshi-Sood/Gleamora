@@ -1,12 +1,58 @@
-# React + Vite
+# BrandPage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based project for creating a modern and responsive brand landing page.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Optimized for all screen sizes.
+- **Reusable Components**: Modular and maintainable code structure.
+- **Customizable**: Easily adaptable to different branding needs.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/BrandPage.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd BrandPage
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+1. Start the development server:
+    ```bash
+    npm start
+    ```
+2. Open your browser and navigate to `http://localhost:3000`.
+
+## Scripts
+
+- `npm start`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm test`: Runs the test suite.
+
+## Folder Structure
+
+```
+BrandPage/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── styles/
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
